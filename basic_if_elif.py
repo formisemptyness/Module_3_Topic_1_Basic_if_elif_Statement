@@ -20,9 +20,26 @@ Submit your .py file.
 '''
 
 
-#Creat variables: Platinum ($60), Gold ($50), Silver ($40), Bronze ($30), and Free Trial (free) and set their value
-#Ask user to sing up for PTMSB (Programmer's Toolkit Monthly Subscription Box, ask which of the five levels
-    #want to sign up for
+
+#Print the varied information about the Programmer's Toolkit
+print('Hello and welcome to the Programmer\'s Toolkit Monthly Subscription Box.')
+print('Each month is something different, t-shirts, stickers, figurines, even programming books!')
+print('There are five different levels you can pick from.')
+print('The levels are Platinum, Gold, Silver, Bronze, and Free Trial.')
+
 #Take input from user and store in userSubLevel
-#Compare userSubLevel to the five variables using if statements
-    #Print the results: userSebLevel and its corasponding value
+userSubLevel = input('To subscribe type one of the five levels (e.g. for Gold type \'Gold\' for Free Trial type \'free\'): ')
+
+#Using and if statement determine which level has been picked by compareing userSubLevel to the five different
+#levels (Platinum, Gold, Silver, Bronze, Free Trial (free).
+if(userSubLevel == 'Platinum'):
+    print('Platinum is $60')
+elif(userSubLevel == 'Gold'):
+        print('Gold is $50')
+elif(userSubLevel == 'Silver'):
+        print('Silver is $40')
+elif(userSubLevel == 'Bronze'):
+        print('Bronze is $30')
+elif(userSubLevel == 'free'):
+        print('The free trial is free.')
+
