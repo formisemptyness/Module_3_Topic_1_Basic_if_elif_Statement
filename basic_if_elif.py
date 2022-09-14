@@ -41,5 +41,10 @@ elif(userSubLevel == 'Silver'):
 elif(userSubLevel == 'Bronze'):
         print('Bronze is $30')
 elif(userSubLevel == 'free'):
-        print('The free trial is free.')
+        print('The Free Trial is free.')
 
+################################################################################################
+###################################Input of test data and Output################################
+####Input: Platinum Output: Platinum is $60##Input: Gold Output: Gold is $50####################
+####Input: Silver Output: Silver is $40##Input: Bronze Output: Bronze is $30####################
+####Input: free Output: The Free Trial is free.##Input: idk Output:    #########################
